@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="345.0" prefWidth="561.0" style="-fx-background-color: white; -fx-background-radius: 32px; -fx-border-radius: 32px;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.easyquiz.HomeController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="155.0" layoutY="14.0" prefHeight="46.0" prefWidth="234.0" text="Quiz Application">
+         <font>
+            <Font name="Open Sans Extrabold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="playquizbtn" layoutX="129.0" layoutY="227.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="304.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 32px;; -fx-border-radius: 32px;" text="PLAY" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Semibold" size="20.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="164.0" layoutY="79.0" text="Abdullah Imtiaz(K20-1901)">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="164.0" layoutY="119.0" text="Ghulam Baqir(K21-3886)">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="164.0" layoutY="156.0" text="Abdul Qadeer(K21-3843)">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
